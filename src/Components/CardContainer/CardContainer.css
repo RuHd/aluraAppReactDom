@@ -1,0 +1,20 @@
+.PostGallery {
+    position: relative;
+    max-width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.CardContainer {
+    margin: 0 auto;
+    transform: translateY(-50px);
+    z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    max-width: 70%;
+    min-height: 500px;
+}

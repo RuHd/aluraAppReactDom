@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.post {
+    max-width: 100%;
+    padding: 30px;
+    border-bottom: 2px solid black;
+}
+
+.post>* {
+    margin-top: 20px;
+}
+
+/*Titles Style Section*/
+
+.post h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.post h3 {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+
+}
+
+/*Paragraph Style*/
+
+.post p {
+    max-width: 100%;
+    font-family: "Raleway", sans-serif;
+    line-height: 30px;
+}
+
+.post ul {
+    list-style: circle;
+}
+
+/*Code Examples Style*/
+
+.post pre {
+    background-color: rgb(39, 39, 39);
+    padding: 10px;
+    
+}
+
+.post pre * {
+    color: white;
+}
+
+/*Link Style*/
+
+.post a {
+    color: rgb(0, 17, 250);
+}
+
+.post a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.outrosPosts-title{
+    text-align: center;
+}
+
+.outrosPosts {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    scale: .95;
+    gap: 20px;
+    width: fit-content;
+}
+

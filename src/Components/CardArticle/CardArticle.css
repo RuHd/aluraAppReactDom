@@ -1,0 +1,38 @@
+.CardArticle {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.267);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    max-width: 282px;
+    height: 293px;
+    transition: scale .3s;
+}
+
+.CardArticle img {
+    width: 100%;
+    height: 155px;
+}
+
+.CardArticle button {
+    color: white;
+    border-radius: 20px;
+    background-color: #1875e8;
+    padding: 10px 20px;
+    transition: .5s;
+}
+
+.CardArticle:hover {
+    scale: 1.1;
+    z-index: 30;
+    box-shadow: 5px 2px 30px rgba(0, 0, 0, 0.137);
+}
+
+.CardArticle button:hover {
+    
+    cursor: pointer;
+    opacity: .5;
+}
